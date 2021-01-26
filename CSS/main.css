@@ -8,8 +8,15 @@ body {
 div.header {
     margin: 0rem;
     padding: 0rem;
+    background-color: orange;
 }
 
-h1#magazine-header {
-    margin-left: 4rem;
+#magazine-header {
+    margin: 0rem;
+    margin-left: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background-color: orange;
+    padding: 1rem;
+    font-size: 400%;
 }
