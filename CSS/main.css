@@ -1,0 +1,15 @@
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+div.header {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+h1#magazine-header {
+    margin-left: 4rem;
+}
