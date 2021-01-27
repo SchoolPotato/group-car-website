@@ -1,3 +1,7 @@
+:root {
+    --batman-color: rgba(255, 210, 0, 1);
+}
+
 body {
     margin-top: 0px;
     margin-right: 0px;
@@ -9,36 +13,18 @@ div.topbar {
     margin: 0rem;
     padding: 0rem;
     padding: 0.5rem;
-    background-color: orange;
+    background-color: var(--batman-color);
 }
 #topbar {
     display: inline-block;
     margin: 0rem;
-    margin-left: 24%;
+    margin-left: 16%;
     margin-right: auto;
     font-family: 'Times New Roman', Times, serif;
-    color:white;
-    background-color: orange;
+    color:black;
+    background-color: var(--batman-color);
     padding: 0.5rem;
     font-size: 150%;
     text-decoration: underline;
 }
 
-div.header {
-    margin: 0rem;
-    padding: 0rem;
-    background-color: red;
-    max-width: 40rem;
-    float:left;
-}
-
-#magazine-header {
-    margin: 0rem;
-    margin-right: 4rem;
-    margin-left: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:white;
-    background-color: red;
-    padding: 1rem;
-    font-size: 450%;
-}
