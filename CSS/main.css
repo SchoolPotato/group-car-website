@@ -57,30 +57,29 @@ div.topbar {
 }
 
 .links1, .links2, .links3 {
-    display: block;
     font-family: batmanFont;
-    font-size: 125%;
-    color: rgba(205, 205, 205, 1);
-    padding: 2rem;
-    background-color: rgba(52, 52, 52, 0);
+    text-align: center;
     box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-    margin-top: 0.5rem;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.3;
+    font-size: 200%;
+    margin-top: 3.5rem;
+    padding: 2rem;
 }
 a#links {
     color: var(--batman-color);
     text-align: center;
 }
+#wikipedia, #batmobile-history, #batman-wiki {
+    max-width: 32rem;
+    height: auto;
+}
 
 #stats-image {
     box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-    margin-top: 7.5rem;
-    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 4rem;
     float: left;
-    max-width: 49rem;
+    max-width: 65rem;
 }
 
 .stats-div {
@@ -200,7 +199,7 @@ p#test-text, h1#test-text {
     }
 }
 
-@media (max-width: 1345px) {
+@media (max-width: 1346px) {
     #stats-block {
         display: none;
     }
