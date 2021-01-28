@@ -21,6 +21,8 @@ div.topbar {
     padding: 1rem 0.5rem 1rem 0.5rem;
     background-color: var(--batman-color);
     box-shadow: 0.3rem 0.3rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 #topbar {
     justify-content: space-evenly;
@@ -92,7 +94,7 @@ p#test-text, h1#test-text{
     max-width: 32rem;
 }
 
-@media (max-width: 717px) {
+@media (max-width: 800px) {
     div.topbar {
         padding: 0.5rem 0.25rem 0.5rem 0.25rem;
     }
