@@ -30,7 +30,6 @@ div.topbar {
     font-family: batmanFont;
     color:black;
     background-color: var(--batman-color);
-    padding: 0.5rem;
     font-size: 2rem;
     text-decoration: underline;
 }
