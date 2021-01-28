@@ -77,6 +77,21 @@ div.topbar {
     margin-right: 2rem;
 }
 
+img#test-image{
+    display: block;
+    max-width: 45rem;
+    max-height: auto;
+    margin: 2.5rem auto auto auto;
+}
+p#test-text, h1#test-text{
+    display: block;
+    margin: 1rem auto auto auto;
+    text-align: center;
+    font-family: batmanFont;
+    color: var(--batman-color);
+    max-width: 32rem;
+}
+
 @media (max-width: 717px) {
     div.topbar {
         padding: 0.5rem 0.25rem 0.5rem 0.25rem;
