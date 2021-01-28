@@ -38,7 +38,7 @@ div.topbar {
     max-width: auto;
 }
 
-.history1, .history2, .history3{
+.history1, .history3{
     font-family: batmanFont;
     font-size: 125%;
     color: rgba(205, 205, 205, 1);
@@ -47,7 +47,21 @@ div.topbar {
     box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
     margin-top: 2.5rem;
     float: left;
-    max-width: 40rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.history2{
+    font-family: batmanFont;
+    font-size: 125%;
+    color: rgba(205, 205, 205, 1);
+    padding: 2rem;
+    background-color: rgba(52, 52, 52, 0);
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+    margin-top: 5.5rem;
     background-color: rgba(0, 0, 0, 0.2);
     background-position: center;
     background-repeat: no-repeat;
