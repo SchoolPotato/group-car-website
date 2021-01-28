@@ -1,3 +1,8 @@
+@font-face {
+    font-family: batmanFont;
+    src: url(Fonts/batmfa__.ttf)
+}
+
 :root {
     --batman-color: rgba(255, 210, 0, 1);
 }
@@ -7,24 +12,68 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    background-color: rgba(52, 52, 52, 1);
 }
 
 div.topbar {
+    display: flex;
     margin: 0rem;
-    padding: 0rem;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
     background-color: var(--batman-color);
+    box-shadow: 0.3rem 0.3rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 #topbar {
-    display: inline-block;
-    margin: 0rem;
-    margin-left: 16%;
-    margin-right: auto;
-    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: batmanFont;
     color:black;
     background-color: var(--batman-color);
     padding: 0.5rem;
-    font-size: 150%;
+    font-size: 2rem;
     text-decoration: underline;
 }
 
+#batman-logo1{
+    max-height: 4rem;
+    max-width: auto;
+}
+
+.history1, .history2, .history3{
+    font-family: batmanFont;
+    font-size: 125%;
+    color: rgba(205, 205, 205, 1);
+    padding: 2rem;
+    background-color: rgba(52, 52, 52, 0);
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+    margin-top: 2.5rem;
+    float: left;
+    max-width: 40rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+}
+
+#bat-engine{
+    float: right;
+    max-width: 45rem;
+    max-height: auto;
+    margin-top: 5.5rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+    margin-right: 2rem;
+}
+
+@media (max-width: 717px) {
+    div.topbar {
+        padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+    }
+
+    #topbar {
+        font-size: 1rem;
+    }
+
+    #batman-logo1 {
+        max-height: 2rem;
+        max-width: auto;
+    }
+}
