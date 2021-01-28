@@ -39,14 +39,14 @@ div.topbar {
     max-width: auto;
 }
 
-.history1, .history3{
+.history1{
     font-family: batmanFont;
     font-size: 125%;
     color: rgba(205, 205, 205, 1);
     padding: 2rem;
     background-color: rgba(52, 52, 52, 0);
     box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     float: left;
     background-color: rgba(0, 0, 0, 0.2);
     background-position: center;
@@ -55,21 +55,11 @@ div.topbar {
     margin-right: 2rem;
 }
 
-.history2{
-    font-family: batmanFont;
-    font-size: 125%;
-    color: rgba(205, 205, 205, 1);
-    padding: 2rem;
-    background-color: rgba(52, 52, 52, 0);
-    box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-    margin-top: 5.5rem;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: 2rem;
+h1 {
+    color: var(--batman-color);
 }
 
-#bat-engine{
+#batmobile-60s, #patent-image{
     float: right;
     max-width: 45rem;
     max-height: auto;
