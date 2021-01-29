@@ -97,10 +97,11 @@ a#links {
 
 #stats-image {
     box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-    margin-top: 0.5rem;
+    margin-top: 6.5rem;
     margin-left: 4rem;
     float: left;
-    max-width: 65rem;
+    max-width: 40rem;
+    height: auto;
 }
 
 .stats-div {
