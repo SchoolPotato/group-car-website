@@ -11,7 +11,7 @@
     <div class="topbar">
         <a id="topbar" href="index.html">Home</a>
         <a id="topbar" href="history.html">History</a>
-        <img id="batman-logo1" onclick="logoSpin();" onmouseover="logoChangeYellow();" onmouseout="logoChangeBlack();" src="Images/batman-logo.png">
+        <img id="batman-logo1" onclick="logoSpin(); spinSound();" onmouseover="logoChangeYellow();" onmouseout="logoChangeBlack();" src="Images/batman-logo.png">
         <a id="topbar" href="stats.html">Stats</a>
         <a id="topbar" href="links.html">Links</a>
     </div>
@@ -27,6 +27,11 @@
         <a target="_blank" id="links" href="https://batman.fandom.com/wiki/Batmobile_(Dozierverse)">Batman Fan Wiki</a><br><br>
         <a target="_blank" href="https://batman.fandom.com/wiki/Batmobile_(Dozierverse)"><img id="batman-wiki" src="Images/wiki.png"></a>
     </div><br>
+
+    <audio id="bat-transition">
+        <source src="Images/BatmanTransition.mp3" type="audio/mp3">
+    </audio>
+
     <script src="JS/main.js"></script>
 </body>
 </html>

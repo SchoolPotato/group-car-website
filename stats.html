@@ -11,7 +11,7 @@
     <div class="topbar">
         <a id="topbar" href="index.html">Home</a>
         <a id="topbar" href="history.html">History</a>
-        <img id="batman-logo1" onclick="logoSpin();" onmouseover="logoChangeYellow();" onmouseout="logoChangeBlack();" src="Images/batman-logo.png">
+        <img id="batman-logo1" onclick="logoSpin(); spinSound();" onmouseover="logoChangeYellow();" onmouseout="logoChangeBlack();" src="Images/batman-logo.png">
         <a id="topbar" href="stats.html">Stats</a>
         <a id="topbar" href="links.html">Links</a>
     </div>
@@ -51,6 +51,11 @@
             This Batmobile's gadgets include a nose-mounted aluminum Cable Cutter Blade, Bat Ray Projector, Anti-Theft Device, Detect-a-scope, Batscope, Bat Eye Switch, Antenna Activator, Police Band Cut-In Switch, Automatic Tire Inflation Device, Remote Batcomputer—radio linked to the main Batcomputer in the Batcave, the Batphone, Emergency Bat Turn Lever, Anti-Fire Activator, Bat Smoke, Bat Photoscope, and many other Bat gadgets. If needed, the Batmobile is capable of a quick 180° "bat-turn" thanks to two rear-mounted ten-foot Deist parachutes. The main license plate seen throughout the series was 2F-3567 (1966). Some changes were made during the run of the series, including different license plates (TP-3567; BT-1 and BAT-1), removal of the Futura steering wheel and substitution with a 1958 Edsel steering wheel, and the addition of extra gadgets such as a net in the trunk, remote-controlled driving, a rear-facing camera under the turbine exhaust port, and the Bat Ram.
         </p>
     </div>
+
+    <audio id="bat-transition">
+        <source src="Images/BatmanTransition.mp3" type="audio/mp3">
+    </audio>
+
     <script src="JS/main.js"></script>
 </body>
 </html>

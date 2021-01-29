@@ -17,3 +17,8 @@ function logoSpin(){
         batman.parentNode.replaceChild(newBatman, batman);
     }
 }
+
+function spinSound(){
+    let audio = document.getElementById("bat-transition");
+    audio.play();
+}

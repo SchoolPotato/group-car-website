@@ -11,7 +11,7 @@
     <div class="topbar">
         <a id="topbar" href="index.html">Home</a>
         <a id="topbar" href="history.html">History</a>
-        <img id="batman-logo1" onclick="logoSpin();" onmouseover="logoChangeYellow();" onmouseout="logoChangeBlack();" src="Images/batman-logo.png">
+        <img id="batman-logo1" onclick="logoSpin(); spinSound();" onmouseover="logoChangeYellow();" onmouseout="logoChangeBlack();" src="Images/batman-logo.png">
         <a id="topbar" href="stats.html">Stats</a>
         <a id="topbar" href="links.html">Links</a>
     </div>
@@ -38,6 +38,11 @@
             Barris built two fiberglass copies of the original Batmobile for exhibition on the car show circuit and a third for exhibition drag racing. Eventually, the three copies (and the screen-used metal Futura Batmobile) were covered with a black velvet "fuzz" paint, presumably to hide stress cracks in the fiberglass bodies. Later, all three were restored to their gloss black paint job. The three replicas are all based on a 1965–1966 Ford Galaxie. <br><br> The #1 Barris-built Batmobile sold at Barrett-Jackson Auctions on January 19, 2013 for 4,620,000 USD. The three Barris copies all reside in private collections, including the exhibition drag racing version driven by wheelstanding driver Wild Bill Shrewsberry. This car was built with a dual-quad Holman Moody Ford 427 V8 engine, Art Carr-prepared Ford C6 automatic transmission and 5.14 gears in the rear end. Quarter-mile times were in the mid-12 second range, primarily because Shrewsberry would launch the car in second gear and smoke the overinflated rear tires for show down most of the strip. The "rocket exhaust" was made functional via a tank filled with either gasoline or kerosene which was pumped out the exhaust port and ignited electrically.
         </p>
     </div>
+
+    <audio id="bat-transition">
+        <source src="Images/BatmanTransition.mp3" type="audio/mp3">
+    </audio>
+
     <script src="JS/main.js"></script>
 </body>
 </html>
