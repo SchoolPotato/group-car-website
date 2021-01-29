@@ -11,11 +11,16 @@
     --batman-color: rgba(255, 210, 0, 1);
 }
 
+@keyframes spin {
+    from {transform: rotate(360deg)}
+    to {transform: rotate(0deg)}
+}
+
 body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
     background-color: rgba(52, 52, 52, 1);
 }
 
@@ -37,10 +42,18 @@ div.topbar {
     font-size: 2rem;
     text-decoration: underline;
 }
+#topbar:hover {
+    color: #702100;
+}
 
 #batman-logo1 {
     max-height: 4rem;
     max-width: auto;
+}
+
+.spin {
+    animation-name: spin;
+    animation-duration: 2s;
 }
 
 .history1, .features {
@@ -124,6 +137,7 @@ h1 {
     float: right;
     max-width: 45rem;
     max-height: auto;
+    margin: 1rem;
     margin-top: 5.5rem;
     box-shadow: 0.2rem 0.2rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
     margin-right: 2rem;
@@ -148,6 +162,10 @@ p#test-text, h1#test-text, a#test-text {
     font-family: batmanFont;
     color: var(--batman-color);
     max-width: 32rem;
+}
+
+a#test-text:hover {
+    color: rgba(210, 165, 0, 1);
 }
 
 .small-stats {
