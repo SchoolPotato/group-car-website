@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group Car Website</title>
     <meta name="description" content="A group project about batmobiles">
     <link rel="stylesheet" href="CSS/main.css">
+    <!--style for the slide button hover effects-->
+    <style>
+        .button:hover{
+      height:110px;
+      width:110px;
+      
+    }
+
+    .button:active{
+      opacity: .6;
+    }
+
+    </style>
 </head>
 <body>
     <div class="topbar">
@@ -22,11 +36,21 @@
 
     <!--This image should be replaced with your slideshow-->
     <img id="test-image" src="Images/60sBatmobile.png">
+    <br><br>
 
     <audio id="bat-transition">
         <source src="Images/BatmanTransition.mp3" type="audio/mp3">
     </audio>
 
+    <!--two images, serving as buttons-->
+    <div style="text-align: center;">
+    <img id=rbutton class=button src="images/rightbatarrow.png" height=80px; width=80px; style="float: right; margin-right: 500px;">
+
+    <img id=lbutton class=button src="images/leftbatarrow.png" height=80px; width=80px; style="float: left; margin-left: 500px;">
+    </div>
+
     <script src="JS/main.js"></script>
+    <script src="JS/batslidescript.js"></script>
+    <script></script>
 </body>
 </html>
