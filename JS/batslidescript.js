@@ -2,10 +2,13 @@
 
 itemlist = [
 
+"Images/60sBatmobile.png",
 "Images/batslide1.jpg",
 "Images/batslide2.jpg",
 "Images/batslide3.jpg",
 "Images/batslide4.jpg",
+"Images/engine.png",
+"Images/steering.png",
 
 ]
 //add any image file paths above
