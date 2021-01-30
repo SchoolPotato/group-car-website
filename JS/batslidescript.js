@@ -2,10 +2,10 @@
 
 itemlist = [
 
-"images/batslide1.jpg",
-"images/batslide2.jpg",
-"images/batslide3.jpg",
-"images/batslide4.jpg",
+"../Images/batslide1.jpg",
+"../Images/batslide2.jpg",
+"../Images/batslide3.jpg",
+"../Images/batslide4.jpg",
 
 ]
 //add any image file paths above
